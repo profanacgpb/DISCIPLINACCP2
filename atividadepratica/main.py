@@ -1,0 +1,1 @@
+print(f"Hello Word, Meu nome é Daniel \nEstou Cursando Ciência da Computação \n2º Período ")
