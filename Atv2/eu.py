@@ -1,0 +1,1 @@
+print("Felipe Silva, Ciência da Computação, 2* período. Espero aprender Python, aprimorar minha lógica de programação e transformar conhecimento em projetos reais.")
