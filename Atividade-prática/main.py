@@ -1,1 +1,0 @@
-print(f"Kaynan\n Ciências da Computação\n 2°P\n")
