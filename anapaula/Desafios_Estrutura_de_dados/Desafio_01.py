@@ -1,6 +1,6 @@
 #Desafio 1: Lista de alunos
 
-nome = ["Carlos", "Eduarda", "Ana", "Daniel", "Bianca"]
+nome = ["Carlos", "Eduarda", "Ana", "Daniel", "Bia"]
 print(nome)
 
 nome.append("Fábio")
