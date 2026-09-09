@@ -1,21 +1,24 @@
 #Desafio 1: Lista de alunos
 
-nome = ["Carlos", "Eduarda", "Ana", "Daniel", "Bia"]
-print(nome)
+nomes = ["Carlos", "Eduarda", "Ana", "Daniel", "Bia"]
+print("NOMES:", nomes)
 
-nome.append("Fábio")
-nome.remove("Daniel")
-nome.insert(2,"Carla")
+nomes.append("Fábio")
+print("\nNovo nome na lista:", nomes)
 
-print (nome)
+nomes.remove("Daniel")
+print("Retirada de um nome:", nomes)
 
-print(nome[:3])
-print(nome[3:5])
+nomes.insert(2,"Carla")
+print("Alteração do 3º nome:", nomes)
 
-nome.reverse()
-print(nome)
+print("Os 3 primeiros nomes da lista são:", nomes[:3])
 
-nome.sort()
-print (nome)
+i = len(nomes)
+print("Os dois últimos nomes da lista são:", nomes[i-2:i])
 
+nomes.sort()
+print ("Lista ordenada:", nomes)
 
+nomes.reverse()
+print("Lista invertida:", nomes)
