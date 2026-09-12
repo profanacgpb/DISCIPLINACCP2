@@ -49,5 +49,5 @@ print("\nITENS NO FORMATO: (Chave, Valor):")
 
 for i in range(len(dicionario_animais)):
     print(f"Item {i+1}:", list(dicionario_animais.items())[i])
-    i = i+1
+
 
