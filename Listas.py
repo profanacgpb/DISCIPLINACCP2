@@ -1,14 +1,30 @@
-lista= [1, 2, 3, 4, 5, 6, 7, 8, 9]
+lista= [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print (lista)
 lista.insert(5, 6) 
 print(lista)
 lista.insert(2, 7)
 print(lista)
-lista.remove(7)
+lista.remove(3)
 print(lista)
 lista.append(4)
 print(lista)
 lista.count(4)
 ocorrencias= lista.count(4)
 print("O numero 4 aparece", ocorrencias, "vezes")
-
+print(lista[0:3])
+print(lista[2:7])
+print(lista[::3])
+print(lista[-3:])
+print(lista[:-4])
+print(lista[5])
+lista[6]= 12
+print(lista)
+lista.reverse()
+print(lista)
+lista.sort()
+print(lista)
+tupla= (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+#tupla é imutavel 
+tupla.index(5)
+posição= tupla.index
+print(tupla.index(5))
