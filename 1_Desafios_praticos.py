@@ -19,6 +19,5 @@ print(f'{frutas1} | {frutas2}')
 
 frutas1.reverse()
 frutas2.reverse()
-print(frutas1)
-print(frutas2)
+print(f'{frutas1} | {frutas2}')
 
