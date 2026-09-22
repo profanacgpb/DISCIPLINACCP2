@@ -1,0 +1,5 @@
+Ana;8.5
+Carlos;7.0
+Joao;9.2
+Maria;6.8
+Pedro;8.0
