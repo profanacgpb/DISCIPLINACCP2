@@ -1,0 +1,2 @@
+a=int(input("Digite um numero:"))
+print("O numero é:", a, "O antecessor é: ", a-1, "O sucessor é: ", a+1)

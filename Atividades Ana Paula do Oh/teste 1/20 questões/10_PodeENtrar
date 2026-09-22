@@ -1,0 +1,6 @@
+a=int(input("Digite sua idade"))
+if a>=12:
+    print("Você pode entrar")
+else:
+    print("Você não pode entrar")
+    
