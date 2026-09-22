@@ -59,7 +59,3 @@ if "email" in aluno:
     print("E-mail cadastrado")
 else:
     print("E-mail não cadastrado")
-
-
-print("\nQUESTÃO 6:")
-#QUESTÃO 6 - 
