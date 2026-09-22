@@ -1,1 +1,0 @@
-print("Me chamo Alfredo, curso Ciência da Computação na Uninassau, estou no segundo período e eu espero aprender python para desenvolver minhas habilidades em programação e criar projetos interessantes no futuro. ")
