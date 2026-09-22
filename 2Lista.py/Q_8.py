@@ -7,9 +7,9 @@ dicionario={
     "apelido": "Raio"
 }
 # a. Imprima todas as chaves do dicionário 
-print(dicionario)
- 
-# b. Imprima todos os valores do dicionário 
+print(dicionario.keys())
+
+# b. Imprima todas os valores do dicionário
 print(dicionario.values())
  
 # c. Imprima todos os itens do dicionário 
