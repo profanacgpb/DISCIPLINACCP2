@@ -23,6 +23,8 @@ print(aluno)
 aluno.pop("telefone")
 print(aluno)
 
+#Questão 5
 if "email" in aluno:
-    print
-
+    print("Email encontrado!")
+else:
+    print("Email não encontrado.")
