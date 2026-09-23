@@ -1,0 +1,5 @@
+Nome: Joalison, Idade: 19, Curso: cc
+Nome: joao henrique, Idade: 17, Curso: cc
+Nome: jayane
+Idade: 15
+Curso: info
