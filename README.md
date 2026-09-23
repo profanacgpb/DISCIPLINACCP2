@@ -4,12 +4,10 @@ Repositório oficial da disciplina.
 
 ## 📚 Atividades
 
-| Atividade | Tema | Prazo | Status |
-|-----------|------|-------|--------|
-| 01 | Variáveis | 05/09 | Aberta |
-| 02 | Condicionais | 12/09 | Aberta |
-| 03 | Repetição | 19/09 | Bloqueada |
-| 04 | Funções | 26/09 | Bloqueada |
+LISTA 01
+LISTA 02
+LISTA 03
+LISTA 04 
 
 ## 👩‍💻 Alunos
 
