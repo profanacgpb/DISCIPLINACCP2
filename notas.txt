@@ -1,0 +1,3 @@
+O aluno Ana obteve a nota 8.5!
+O aluno Daniel obteve a nota 9.0!
+O aluno Gabriel obteve a nota 8.0!
