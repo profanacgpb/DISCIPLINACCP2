@@ -1,7 +1,7 @@
 from time import sleep
 
 vermelho, branco, verde, fim = "\033[31m", "\033[37m", "\033[32m", "\033[0m"
-caminho_arquivo = "DISCIPLINACCP2/Gabriel-Porto/Python-Estrutura-de-Dados/Arquivos/Questão-01-a-10/mini-sistema.txt"
+caminho_arquivo = "Repositórios-Públicos/DISCIPLINACCP2/Gabriel-Porto/Python-Estrutura-de-Dados/Arquivos/Questão-01-a-10/mini-sistema.txt"
 
 palavara_inicializacao = str(input("Digite a palavra chave (MINI-SISTEMA) para prosseguir: "))
 
