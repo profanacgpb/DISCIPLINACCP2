@@ -27,7 +27,7 @@ print(" 5 - Sair")
 
 opcao_escolhida = int(input("\nDigite uma opção: "))
 
-while opcao_escolhida in (1, 2, 3, 4, 5):
+while True:
     if opcao_escolhida == 1:
         resultado = somar(num_1, num_2)
         print(f"Resultado: {num_1} + {num_2} = {resultado:.1f}")
@@ -49,6 +49,9 @@ while opcao_escolhida in (1, 2, 3, 4, 5):
 
     elif opcao_escolhida == 5:
         break
+
+    else:
+        print("Opção inválida!")
 
     opcao_escolhida = int(input("\nDigite outra opção: "))
 
