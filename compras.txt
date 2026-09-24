@@ -1,0 +1,6 @@
+1 - banana
+2 - maca
+3 - pera
+4 - caju
+5 - abobora
+6- uva
