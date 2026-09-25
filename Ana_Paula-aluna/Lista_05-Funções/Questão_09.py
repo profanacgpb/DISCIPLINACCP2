@@ -26,10 +26,10 @@ def listar_alunos():
 
 
 def buscar_aluno():
-    nome = input(("Qual aluno você deseja buscar (LETRAS MAIÚSCULAS)? "))
+    nome = input("Qual aluno você deseja buscar (LETRAS MAIÚSCULAS)? ")
     for aluno in lista_de_alunos:
         aluno = aluno["Nome"]
-        
+
         if nome == aluno:
             print("Aluno cadastrado!")
             break
