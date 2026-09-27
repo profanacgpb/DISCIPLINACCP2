@@ -8,6 +8,7 @@ while True:
 
     if opcao == "1":
         nome = input("Digite o nome do aluno: ")
+    
 
         with open("alunos.txt", "a", encoding="utf-8") as arquivo:
             arquivo.write(nome + "\n")

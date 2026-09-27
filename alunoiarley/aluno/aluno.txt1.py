@@ -5,4 +5,4 @@ arquivo.write("lucas\n")
 arquivo.write("mateus\n")
 arquivo.write("isis\n")
 arquivo.write("robson\n")
-
+ 

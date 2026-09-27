@@ -3,15 +3,5 @@ lucas
 mateus
 isis
 robson
-exit
-iarley antonio da silva
-ana
-carlos
-exit
-mas
-exit
-C:\Users\iarle\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/iarle/OneDrive/Desktop/DISCIPLINACCP2/alunoiarley/aluno/compras.txt8.py
-C:\Users\iarle\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/iarle/OneDrive/Desktop/DISCIPLINACCP2/alunoiarley/aluno/compras.txt8.py
-jpijp
-C:\Users\iarle\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/iarle/OneDrive/Desktop/DISCIPLINACCP2/alunoiarley/aluno/compras.txt8.py
 iarley
+Iarley antonio

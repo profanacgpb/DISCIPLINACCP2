@@ -8,7 +8,7 @@ with open("produtos.txt", "w", encoding="utf-8") as arquivo:
         f"{produto['nome']};{produto['preco']};{produto['quantidade']}\n"
     )
 with open("produtos.txt", "r", encoding="utf-8") as arquivo:
-    for linha in arquivo:
+    for linha in arquivo: 
         nome, preco, quantidade = linha.strip().split(";")
 
         print("Produto:", nome)
