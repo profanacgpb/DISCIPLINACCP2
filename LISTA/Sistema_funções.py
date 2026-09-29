@@ -10,8 +10,12 @@ def cadastrar_aluno():
     print("Aluno cadastrado com sucesso!")
 def listar_alunos():
     print("\n--- LISTA DE ALUNOS ---")
+    if len(alunos) == 0:
+        print("Nenhum aluno cadastrado no momento.")
+        return
     for aluno in alunos:
         print(f"Nome: {aluno['nome']} | Notas: {aluno['nota1']} e {aluno['nota2']}")
+def buscar_aluno():
     nome_busca = input("Digite o nome para buscar: ")
     for aluno in alunos:
         if aluno["nome"].lower() == nome_busca.lower():
@@ -33,14 +37,13 @@ def verificar_situacao():
         if aluno["nome"].lower() == nome_busca.lower():
             media = (aluno["nota1"] + aluno["nota2"]) / 2
             if media >= 7:
-                print(f"{aluno["nome"]} está APROVADO.")
+                print(f"{aluno['nome']} está APROVADO.")
             elif media >= 5:
-                print(f"{aluno["nome"]} está EM RECUPERAÇÃO.")
+                print(f"{aluno['nome']} está EM RECUPERAÇÃO.")
             else:
-                print(f"{aluno["nome"]} está REPROVADO.")
+                print(f"{aluno['nome']} está REPROVADO.")
             return
     print("Aluno não encontrado.")
-def menu():
     while True:
         print("\n========== SISTEMA ACADÊMICO ==========")
         print("1 - Cadastrar aluno")
