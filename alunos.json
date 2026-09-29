@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Zenildo",
+        "idade": 26,
+        "curso": "Ciência da Computação",
+        "nota": 9.0
+    },
+    {
+        "nome": "Maria",
+        "idade": 22,
+        "curso": "Administração",
+        "nota": 8.5
+    },
+    {
+        "nome": "João",
+        "idade": 25,
+        "curso": "Engenharia",
+        "nota": 7.5
+    },
+    {
+        "nome": "Pedro",
+        "idade": 21,
+        "curso": "Sistemas de Informação",
+        "nota": 8.0
+    },
+    {
+        "nome": "Ana",
+        "idade": 23,
+        "curso": "Direito",
+        "nota": 9.5
+    }
+]
