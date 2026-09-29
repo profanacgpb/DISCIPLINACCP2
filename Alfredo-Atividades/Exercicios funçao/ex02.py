@@ -1,2 +1,4 @@
-saudacao = input("Digite seu nome: ")
-print(f"Olá, {saudacao}! Seja bem-vindo(a)!")
+def saudacao():
+    nome = input("Digite seu nome: ")
+    print(f"Olá, {nome}! Seja bem-vindo(a)!")
+saudacao()
