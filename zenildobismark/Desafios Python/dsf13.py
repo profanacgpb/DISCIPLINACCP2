@@ -5,11 +5,17 @@ alunos = []
 
 def cadastrarAluno():
     nome = input("Digite o nome do aluno: ")
+    matricula = int(input("Digite a matrícula do aluno: "))
     serie = int(input("Digite a série do aluno: "))
+    email = input("Digite o e-mail do aluno: ")
+    telefone = int(input("Digite o telefone do aluno: "))
 
     aluno = {
         'nome': nome,
-        'serie': serie
+        'matricula': matricula,
+        'serie': serie,
+        'email': email,
+        'telefone': telefone
     }
 
     alunos.append(aluno)
@@ -19,7 +25,7 @@ def cadastrarNota():
 
     for aluno in alunos:
         if aluno['nome'] == nome:
-            if aluno.get['nota1'] is not None and aluno.get['nota2'] is note None and nota1 =! '' and nota2 =! ''
+            if aluno.get['nota1'] is not None and aluno.get['nota2'] is not None and nota1 =! '' and nota2 =! '':
                 print("Esse aluno já possui notas cadastradas!")
                 return
      
@@ -60,8 +66,40 @@ def alterarNota():
         else:
             print("Aluno não encontrado!")
                 
+def alterarPessoais():
+    nome = input("Digite o nome do aluno que você deseja alterar os daods pessoais: ")
 
+    for aluno in alunos:
+        if aluno['nome'] == nome:
+            while True:
+                print("Aluno encontrado!")
+                print("Quais dados você deseja alterar?")
+                print("Digite (1) para alterar apenas o nome do aluno: ")
+                print("Digite (2) para alterar apenas o matricula do aluno: ")
+                print("Digite (3) para alterar apenas o serie do aluno: ")
+                print("Digite (4) para alterar apenas o email do aluno: ")
+                print("Digite (5) para alterar apenas o telefone do aluno: ")
+                print("Digite (6) para alterar todos os dados pessoais do aluno: ")
+                print("Digite (7) para Sair")
+
+                op = int(input("Digite a opção desejada: "))
+
+                if op == 1:
+                    nome = input("Digite o novo nome do aluno: ")
+                    aluno['nome'] = nome
+
+                elif op == 2:
+                    matricula = int(input("Digite a nova matrícula do aluno: "))
+                    aluno['matricula'] = matricula
+
+                elif op == 3:
+                    serie = int(input("Digite a mova série do aluno: "))
+                    aluno['serie'] = serie
+
+                elif op == 4:
                     
+
+                
 
 
 
