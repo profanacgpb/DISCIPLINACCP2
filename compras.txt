@@ -1,5 +1,2 @@
-Cuscuz
-frango
-cafe
-coca
-carne
+Produto 1: zero
+Produto 2: ca
