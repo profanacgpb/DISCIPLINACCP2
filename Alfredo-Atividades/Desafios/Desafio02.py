@@ -1,0 +1,6 @@
+nome = input("digite seu nome: ")
+matricula = input("digite sua matrícula: ")
+curso = input("digite seu curso: ")
+idade = input("digite sua idade: ")
+media = input("digite sua média: ")
+print(f"Olá, me chamo {nome}, minha matrícula é {matricula}, sou do curso {curso}, tenho {idade} anos e minha média é {media}.")

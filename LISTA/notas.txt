@@ -1,0 +1,3 @@
+Gabriel;8.5
+Daniel;7.0
+Kaynan;9.5
