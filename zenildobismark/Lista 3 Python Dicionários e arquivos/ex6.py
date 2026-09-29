@@ -1,5 +1,5 @@
 # Crie o dicionário abaixo e utilize for e items() para apresentar cada chave e valor:
-#   
+
 produto = {
     "nome": "Notebook", 
     "preco": 2500, 
