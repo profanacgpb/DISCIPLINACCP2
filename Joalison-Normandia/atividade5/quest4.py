@@ -1,11 +1,10 @@
-def verificar_npar(numero):
-    if numero % 2 == 0:
-        return True
-    return False
+def verificar_par(numero):
+    return numero % 2 == 0
 
-num = int(input("Digite um número: "))
 
-if verificar_npar(num):
-    print(f"{num} é par")
-else:
-    print(f"{num} é ímpar")
+def sera_par():
+    numero = ler_inteiro("Digite um número inteiro: ")
+    if verificar_par(numero):
+        print(f"O número {numero} é par.")
+    else:
+        print(f"O número {numero} é ímpar.")
