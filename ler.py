@@ -1,3 +1,3 @@
-with open("dados.txt", "r") as arquivo:
+with open("dadosalunos.txt", "r") as arquivo:
     conteudo = arquivo.read()
     print(conteudo)
