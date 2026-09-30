@@ -1,3 +1,0 @@
-Ana;8.5
-Carlos;7.0
-Beatriz;9.2

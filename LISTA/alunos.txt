@@ -1,6 +1,0 @@
-Kaynan
-CSara
-Gabriel
-Daniel
-Pedro
-C:\Users\luizk\AppData\Local\Programs\Python\Python314\python.exe c:/dev/python/DISCIPLINACCP2/Sistema.py

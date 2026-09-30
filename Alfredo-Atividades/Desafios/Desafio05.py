@@ -1,5 +1,0 @@
-nome_bruto = input("Digite o seu nome completo: ")
-palavras = nome_bruto.split()
-nome_junto = " ".join(palavras)
-nome_final = nome_junto.title()
-print("Nome limpo e corrigido:", nome_final)

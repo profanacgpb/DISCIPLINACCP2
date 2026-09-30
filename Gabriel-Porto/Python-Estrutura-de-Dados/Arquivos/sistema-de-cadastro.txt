@@ -1,3 +1,0 @@
-nome: Gabriel
-idade: 19
-curso: Ciência-Computação
