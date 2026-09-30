@@ -1,0 +1,1 @@
+arquivo = open("dados.txt", "w")
