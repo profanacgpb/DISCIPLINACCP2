@@ -1,0 +1,6 @@
+def somar():
+    numero1= int(input("Digite o primeiro numero: "))
+    numero2= int(input("Digite seu segundo numero: "))
+    soma= numero1+numero2
+    print("Resultado:", soma)
+somar()    
