@@ -27,7 +27,7 @@ print ("-=-" * 10)
 
 escolha_menu = int(input("Escolha uma das opções acima: "))
 
-while (escolha_menu != 1 or escolha_menu != 2 or escolha_menu != 3 or escolha_menu != 4):
+while (escolha_menu != 1 and escolha_menu != 2 and escolha_menu != 3 and escolha_menu != 4):
     if escolha_menu == 1:
         exibicao = somar (valor_entrada_1, valor_entrada_2)
         print (f"A soma entre {valor_entrada_1} e {valor_entrada_2} é {exibicao} (respectivamente)")
